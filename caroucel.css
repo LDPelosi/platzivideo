@@ -16,7 +16,7 @@ body {
 }
 
 .caroucel-item {
-    background-color: aqua;
+    background-color: transparent;
     display: inline-block;
     width: 200px;
     height: 250px;
@@ -55,10 +55,19 @@ body {
     transition: 450ms opacity;
     padding: 10px;
     position: absolute;
-    top: 0;
+    top: 145px;
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.caroucel-item__details img {
+    width: 30px;
+    height: 30px;
+}
+
+.caroucel-item__details p {
+    color: white;
 }
 
 .caroucel-item__details:hover {
