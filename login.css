@@ -146,6 +146,7 @@ body {
         background-color: transparent;
         border: none;
         padding: 0;
+        width: 100%;
     }
     .footer {
         align-items: flex-start;
